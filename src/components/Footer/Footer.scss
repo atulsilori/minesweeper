@@ -1,0 +1,45 @@
+.Redo{
+    font-size: xx-large;
+    border: 0.3px solid black;
+    background-color: #efeeee;
+    margin-right: 10px;
+    &:active{
+        border: 0.3px solid black;
+        background-color: #efeeee !important;
+    }
+    &:hover{
+        background-color: #cccfd1;
+    }
+}
+
+.disable-redo{
+    font-size: xx-large;
+    border: 0.3px solid #e9e3e3;
+    margin-right: 10px;
+    background: #e9e3e3;
+}
+
+.Screenshot{
+    font-size: xx-large;
+    border: 0.3px solid black;
+    background-color: #efeeee;
+    &:active{
+        border: 0.3px solid black;
+        background-color: #efeeee !important;
+    }
+    &:hover{
+        background-color: #cccfd1;
+    }
+}
+
+.image-container, .header{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .screenshot-image{
+        width: 300px
+    }
+  }
+
